@@ -8,7 +8,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Ardiand Music Production</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logo-white.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -26,15 +26,18 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Ard Production</a>
+                {{-- <a href="">
+                    <img src="assets/logo-white.png" alt="">
+                </a> --}}
+                <a class="navbar-brand" href="#page-top"><img src="assets/logowhite.png" alt=""> Ard Music Production </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Portofolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Reviews</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact Us</a></li>
@@ -43,20 +46,30 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead" >
+        <header class="masthead"  id="home" >
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-7 text-uppercase">Ardian Production </h1>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h1 class="mx-auto my-8 text-uppercase">It’s time to take your content to the next level </h1>
+                          <video class="video-bg" src="assets/img/vd-masthead.webm" autoplay muted loop></video>
+                        <a class="btn btn-primary " href="#services">Get Started</a>
                     </div>
                 </div>
             </div>
-            
         </header>
         
-        <!-- About-->
-        <section class="about-section text-center" id="about">
+
+        {{-- <header class="homehead" >
+            <div class="hero">
+                <h1>Ard Music Production</h1>
+                <video class="video-bg" src="assets/img/vd-masthead.mp4" autoplay muted loop></video>
+                <a class="btn btn-primary" href="#about">Get Started</a>
+                
+            </div>
+        </header> --}}
+        
+        <!-- Services-->
+        <section class="about-section text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -66,11 +79,13 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <img class="img-fluid" src="assets/img/service.jfif" alt="..." />
             </div>
         </section>
+
+
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
