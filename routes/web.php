@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/services', function () {
+    return view('service');
+});
+Route::get('/service-detail', function () {
+    return view('service-detail');
+});
+Route::get('/portofolio', function () {
+    return view('portofolio');
+});
+Route::get('/reviews', function () {
+    return view('review');
+});
+Route::get('/contact', function () {
+    return view('contact');
 });
